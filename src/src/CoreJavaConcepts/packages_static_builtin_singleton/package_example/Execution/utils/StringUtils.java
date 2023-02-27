@@ -1,4 +1,4 @@
-package CoreJavaConcepts.packages_static_builtin_singleton.utils;
+package CoreJavaConcepts.packages_static_builtin_singleton.package_example.Execution.utils;
 
 public class StringUtils {
 
