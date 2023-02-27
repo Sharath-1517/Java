@@ -1,4 +1,4 @@
-package CoreJavaConcepts.packages_static_builtin_singleton;
+package CoreJavaConcepts.classesandobjects.chatgpt;
 
 
 //Create a class called "Person" with fields for name, age, and gender. Write a constructor that takes in these fields

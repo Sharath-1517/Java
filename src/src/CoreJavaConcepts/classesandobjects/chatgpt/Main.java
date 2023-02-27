@@ -1,4 +1,4 @@
-package CoreJavaConcepts.packages_static_builtin_singleton;
+package CoreJavaConcepts.classesandobjects.chatgpt;
 
 //Write a program that reads in a list of integers from the user and creates an object of a class called "Statistics".
 // The class should have methods to compute the mean, median, and mode of the list of integers.
