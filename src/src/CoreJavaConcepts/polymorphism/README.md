@@ -4,10 +4,9 @@
 ***
 ## Contents I covered in this:
 ### - Polymorphism
-  - Shapes example
-    - With various shapes
   - Types of polymorphism
-    - Static polymorphism
+    - Static/Compile-time polymorphism
       - Overloading
-    - Dynamic polymorphism
+    - Dynamic/Run-time polymorphism
+      - Overriding
   - `final` keyword
