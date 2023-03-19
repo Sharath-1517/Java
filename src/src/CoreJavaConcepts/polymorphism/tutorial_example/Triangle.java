@@ -1,4 +1,4 @@
-package CoreJavaConcepts.polymorphism;
+package CoreJavaConcepts.polymorphism.tutorial_example;
 
 public class Triangle extends Shapes{
 
