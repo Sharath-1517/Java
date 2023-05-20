@@ -1,8 +1,9 @@
-package CoreJavaConcepts.classesandobjects.chatgpt;
+package CoreJavaConcepts.classesandobjects.chatgpt.intermediate;
 
 
 //Create a class called "Person" with fields for name, age, and gender. Write a constructor that takes in these fields
 // as arguments and initializes the corresponding fields. Also, write methods to set and get the values of these fields.
+//Display the details of a person using constructor.
 
 public class Person {
 
@@ -14,12 +15,19 @@ public class Person {
         this.name = name;
         this.age = age;
         this.gender = gender;
+        returnData();
     }
 
+    public void returnData() {
+
+        System.out.printf("The person's data:\nName: %s\nAge: %d\nGender: %s\n\n\n", name, age, gender);
+
+    }
+
+/*
     public String getName() {
         return name;
     }
-
     public int getAge() {
         return age;
     }
@@ -27,6 +35,9 @@ public class Person {
     public String getGender() {
         return gender;
     }
+    The above lines were commented out because of the initialization of the `returnData()` function, which displays all
+    the constructor's data already.
+*/
 
     public void setName(String name) {
         this.name = name;
@@ -47,8 +58,8 @@ public class Person {
         Person p2 = new Person("Tharun", 17, "male");
 
 //      Getting the values from the objects
-        System.out.printf("Name: %s\nAge: %d\nGender: %s\n\n", p1.getName(), p1.getAge(), p1.getGender());
-        System.out.printf("Name: %s\nAge: %d\nGender: %s\n\n\n", p2.getName(), p2.getAge(), p2.getGender());
+//        System.out.printf("Name: %s\nAge: %d\nGender: %s\n\n", p1.getName(), p1.getAge(), p1.getGender());
+//        System.out.printf("Name: %s\nAge: %d\nGender: %s\n\n\n", p2.getName(), p2.getAge(), p2.getGender());
 
 //      Setting the values to the objects
         p1.setName("Tharun");
@@ -61,8 +72,8 @@ public class Person {
 
 
 //      Checking for the values after the change
-        System.out.printf("Name: %s\nAge: %d\nGender: %s\n\n", p1.getName(), p1.getAge(), p1.getGender());
-        System.out.printf("Name: %s\nAge: %d\nGender: %s\n\n\n", p2.getName(), p2.getAge(), p2.getGender());
+//        System.out.printf("Name: %s\nAge: %d\nGender: %s\n\n", p1.getName(), p1.getAge(), p1.getGender());
+//        System.out.printf("Name: %s\nAge: %d\nGender: %s\n\n\n", p2.getName(), p2.getAge(), p2.getGender());
     }
 }
 
