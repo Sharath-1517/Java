@@ -1,4 +1,4 @@
-package CoreJavaConcepts.classesandobjects.chatgpt.intermediate;
+package CoreJavaConcepts.classesandobjects.chatgpt.hard;
 
 import java.util.Scanner;
 

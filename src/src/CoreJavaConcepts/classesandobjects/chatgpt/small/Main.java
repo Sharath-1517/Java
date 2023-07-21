@@ -1,4 +1,4 @@
-package CoreJavaConcepts.classesandobjects.chatgpt;
+package CoreJavaConcepts.classesandobjects.chatgpt.small;
 
 //Write a program that reads in a list of integers from the user and creates an object of a class called "Statistics".
 // The class should have methods to compute the mean, median, and mode of the list of integers.
